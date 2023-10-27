@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    font-size:40px ;
+}
+
+
+header {
+    background-color: #e4d7cf;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    font-family: cursive;
+    padding-left: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.circle1 {
+    position: absolute;
+    left: 1500px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(116, 159, 159);
+    border-radius: 50%;
+    box-shadow: 12px 12px 20px 10px rgba(137, 130, 124, 0.2);
+}
+.circle2 {
+    position: absolute;
+    left: 1400px;
+    top:-20px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(187, 215, 214);
+    border-radius: 50%;
+    box-shadow: 12px 12px 20px 10px rgba(137, 130, 124, 0.2);
+}
+
+.circle {
+    border: white 2px solid;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+     
+}
+
+.about-img {
+    height: 700px;
+    border-bottom-right-radius: 50%;
+   
+}
+
+.project-container {
+    background-color:#2a2a2c;
+}
+
+.flex-container {
+    text-align: center;
+    
+     display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
+   
+
+
+}
+
+
+.info {
+    height: 600px;
+     background-image: url(/images/flowergirl.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 90%;
+}
+.about-header {
+    color:rgb(157, 72, 86);
+}
+
+.portfolio-item {
+    
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+   
+}
+
+.project-img {
+    width: 600px;
+    height:500px;
+}
+
+.about-me {
+    position:  absolute;
+    left: 45%;
+    top: 40px;
+    max-width: 900px;
+    
+    padding:55px;
+    box-shadow: 12px 12px 20px 10px rgba(137, 130, 124, 0.2);
+    font-size: 1.8em;
+   
+}
+
+.circle3 {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+   right: 1000px;
+    top:550px;
+    background-color: rgb(187, 215, 214);
+    border-radius: 50%;
+    box-shadow: 12px 12px 20px 10px rgba(137, 130, 124, 0.2);
+}
+
+
+
+
+footer {
+ 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color:rgb(202, 173, 178);
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
